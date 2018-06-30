@@ -35,5 +35,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/tvTitle"
         android:layout_toRightOf="@+id/ivBackdropImage"
+        android:ellipsize="end"
+        android:maxLines="6"
         android:text="TextView" />
 </RelativeLayout>
